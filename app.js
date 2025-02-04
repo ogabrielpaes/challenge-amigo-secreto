@@ -13,12 +13,13 @@ function adicionarAmigo() {
         console.log("Lista de Amigos:", amigos); // Exibe a lista no console para conferência
     
         inputNome.value = ""; // Limpa o campo de entrada
+        atualizarListaAmigos()
     }
 
     function atualizarListaAmigos() {
         let lista = document.getElementById("listaAmigos"); // Obtém o elemento da lista
         lista.innerHTML = ""; // Limpa a lista antes de atualizar
-    
+            
         for (let amigo of amigos) {
             let li = document.createElement("li"); // Cria um novo elemento <li>
             li.textContent = amigo; // Define o nome do amigo como texto do <li>
