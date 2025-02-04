@@ -46,6 +46,9 @@ O **Amigo Secreto** é uma aplicação web simples que permite ao usuário adici
 1️⃣ Clique no botão **"Sortear amigo"**.  
 2️⃣ Um nome aleatório da lista será exibido na seção de resultados.
 
+### 🎲 Teste no vercel:
+1️⃣ link: https://challenge-amigo-secreto-pearl.vercel.app/
+
 ---
 
 🚀 **Projeto desenvolvido para facilitar sorteios e jogos de amigo secreto de forma rápida e intuitiva!** 🎉
